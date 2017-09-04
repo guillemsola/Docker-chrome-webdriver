@@ -3,7 +3,7 @@
     const chromedriver = require('chromedriver');
 
     // const PATH_TO_CHROME = 'C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe';
-    const PATH_TO_CHROME = '/usr/bin/google-chrome-unstable';
+    const PATH_TO_CHROME = '/usr/bin/google-chrome';
 
     const chromeCapabilities = webdriver.Capabilities.chrome();
     chromeCapabilities.set('chromeOptions', {
