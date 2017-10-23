@@ -9,7 +9,7 @@
     chromeCapabilities.set('chromeOptions', {
       binary: PATH_TO_CHROME,
       'args': [
-        '--headless --window-size=800,600 --disable-gpu --disable-extensions --verbose --log-path=chromedriver.log --no-sandbox',
+        '--headless', '--window-size=800,600', '--disable-gpu', '--disable-extensions', '--verbose', '--log-path=chromedriver.log', '--no-sandbox'
       ]
     });
 
